@@ -1,5 +1,34 @@
 
 
+
+
+
+
+
+
+
+/*
+let b1 = false;
+
+if(b1 == true){
+   console.log("Howdy");
+}
+else{
+   console.log("Naw Dawg");
+}
+*/
+
+
+
+/*
+console.log(Math.random());
+console.log(Math.floor(3.4));
+console.log(Math.floor(Math.random() * 10));
+console.log(Math.floor(Math.random() * 100) + 1);
+*/
+
+
+
 function milkDay(n1, n2) {
    return n1 * n2;
 }
@@ -31,6 +60,9 @@ console.log(n3.toFixed(4));
 */
 
 var books = ["PowerShell", "NMAP", "Django"];
+
+/*
+
 console.log(books);
 books.shift();
 console.log(books);
@@ -50,3 +82,24 @@ console.log(books);
 for(i=0; i < books.length; i++) {
 	console.log(books[i] + ' was fun to read');
 }
+
+*/
+
+var d1 = new Date();
+
+//console.log(d1);
+//console.log(d1.toDateString());
+//console.log(d1.toISOString());
+//console.log(d1.getHours());
+//console.log(d1.getDay());
+//console.log(Date.now());
+
+
+
+
+
+
+
+
+
+
