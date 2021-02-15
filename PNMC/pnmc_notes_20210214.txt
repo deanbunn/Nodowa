@@ -1,0 +1,8 @@
+Summary of Node's script processor:
+
+1. Reads in the file you specify
+2. Reads in all the dependencies that file specifies, and all the dependencies of those files, etc.
+3. Begins executing the synchronous tasks in those files.
+4. Begins processing the "todo list" by repeating the event loop until it has nothing to do. 
+
+
