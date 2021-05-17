@@ -22,5 +22,6 @@ W3JS (w3schools.com JavaScript Tutorial)
 Notes on [w3schools.com JavaScript Tutorial](https://www.w3schools.com/js/)
 
 
+Feel free to make suggestions
 
 
