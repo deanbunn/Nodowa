@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>JavaScript Dev Time</h2>
+
+    <p id="demo">This is going to change.</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello Coders"'>Click Me</button>
+
+    <br /><br />
+
+    <button type="button" onclick='myAlerter()'>Show Something</button>
+
+    <br /><br />
+
+    <button type="button" onclick='myLogger()'>Log Something</button>
+
+    <p id="pDean"></p>
+
+    <button type="button" onclick='paDean()'>Please Click</button>
+
+    <script type="text/javascript">
+
+        function myAlerter(){
+            alert("Howdy");
+        }
+
+        function myLogger(){
+            console.log("whoot!");
+        }
+
+        function paDean(){
+            let vDean = "Getting ready for dinner";
+            vDean = "Let's change it again";
+            document.getElementById("pDean").innerHTML = vDean;
+        }
+        
+    </script>
+
+</body>
+</html>
+
